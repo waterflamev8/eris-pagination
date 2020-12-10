@@ -1,6 +1,6 @@
 {
   "name": "eris-pagination",
-  "version": "0.5.1",
+  "version": "0.1.0",
   "description": "An extremely easy to use Embed Paginator for the Eris Discord Library",
   "main": "index.js",
   "scripts": {
@@ -8,26 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riyacchi/eris-pagination.git"
+    "url": "git+https://github.com/waterflamev8/eris-pagination.git"
   },
   "keywords": [
+    "discord",
     "eris",
-    "pagination",
     "embed",
+    "pagination",
     "paginator",
-    "embed-pagination",
-    "discord"
+    "embed-pagination"
   ],
-  "author": "Riya",
+  "author": "waterflamev8 <hi@pokeden.xyz>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/riyacchi/eris-pagination/issues"
+    "url": "https://github.com/waterflamev8/eris-pagination/issues"
   },
-  "homepage": "https://github.com/riyacchi/eris-pagination#readme",
+  "homepage": "https://github.com/waterflamev8/eris-pagination#readme",
   "dependencies": {
-    "eris-reactions": "^0.1.3"
+    "eris-reactions": "riyacchi/eris-reactions#master"
   },
   "peerDependencies": {
-    "eris": "^0.13.1"
+    "eris": "^0.14.0"
   }
 }
