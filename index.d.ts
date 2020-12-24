@@ -16,15 +16,15 @@ declare module 'eris-pagination' {
     maxMatches?: number;
     /** How long the paginator should work before the reaction listener times out. Defaults to: 300000ms (5 minutes). Maximum: 900000ms (15 minutes) */
     timeout?: number;
-    /** Emoji which should be used as the delete button. This MUST be a unicode emoji! Defaults to: 🗑 */
+    /** Emoji which should be used as the delete button. This MUST be a unicode emoji! Defaults to: ⏹ */
     deleteButton?: string;
     /** Emoji which should be used as the first page button. This MUST be a unicode emoji! Defaults to: ⏮ */
     firstButton?: string;
     /** Emoji which should be used as the last page button. This MUST be a unicode emoji! Defaults to: ⏭ */
     lastButton?: string;
-    /** Emoji which should be used as the back button. This MUST be a unicode emoji! Defaults to: ⬅ */
+    /** Emoji which should be used as the back button. This MUST be a unicode emoji! Defaults to: ◀ */
     backButton?: string;
-    /** Emoji which should be used as the forth button. This MUST be a unicode emoji! Defaults to: ➡ */
+    /** Emoji which should be used as the forth button. This MUST be a unicode emoji! Defaults to: ▶ */
     forthButton?: string;
     /** Which page of the submitted embed array should be shown first. Defaults to: 1 (The 1st page / element in the array) */
     startPage?: number;

@@ -42,16 +42,16 @@ EmbedPaginator.createPaginationEmbed(message, embeds, options);
         - Default: **⏮**
     - **String** `options.backButton` - Emoji used as the back button. **Must be Unicode!**
         - Optional: **Yes**
-        - Default: **⬅**
+        - Default: **◀**
     - **String** `options.forthButton` - Emoji used as the forth button. **Must be Unicode!**
         - Optional: **Yes**
-        - Default: **➡**
+        - Default: **▶**
     - **String** `options.lastButton` - Emoji used as the last page button. **Must be Unicode!**
         - Optional: **Yes**
         - Default: **⏭**
     - **String** `options.deleteButton` - Emoji used as the delete button. **Must be Unicode!**
         - Optional: **Yes**
-        - Default: **🗑**
+        - Default: **⏹**
 
 **Notice:** The Delete button does *not* delete the whole embed. It removes every reaction and resolves with an empty Promise!
 
@@ -81,11 +81,6 @@ bot.on('messageCreate', async (message) => {
 
 bot.connect();
 ```
-<div align="center">
-
-![](https://img.kirameki.one/qlrgKF98.gif)
-
-</div>
 
 <hr>
 
@@ -127,11 +122,6 @@ bot.on('messageCreate', async (message) => {
 
 bot.connect();
 ```
-<div align="center">
-
-![](https://img.kirameki.one/lOJVBJ5q.png)
-
-</div>
 
 # License
 This repository makes use of the [MIT License](https://opensource.org/licenses/MIT) and all of its correlating traits.
